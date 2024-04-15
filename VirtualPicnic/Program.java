@@ -18,7 +18,8 @@ public class Program {
             TextProcessor.printMap(wordCountMap);
             
         } catch (IOException e) {
-            // TODO: handle exception
+            // e.printStackTrace();
+            System.out.println("Ошибка: " + e.getMessage());
         }
     }
     
