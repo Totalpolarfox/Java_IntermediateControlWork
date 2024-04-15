@@ -21,4 +21,19 @@ public class TextProcessor {
         return wordCountMap;
     }
 
+    /*
+     * Проходим через список слов и находим самое длинное слово,
+     * сравнивая его длину с текущим самым длинным словом.
+     * Возвращаем слово.
+     */
+    public static String findLongestWord(List<String> words) {
+        String longestWord = "";
+        for (String word : words) {
+            if (word.length() > longestWord.length()) {
+                longestWord = word;
+            }
+        }
+        return longestWord;
+    }
+
 }
