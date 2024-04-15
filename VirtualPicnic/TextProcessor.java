@@ -36,4 +36,13 @@ public class TextProcessor {
         return longestWord;
     }
 
+        /*
+     * Выводим содержимое Map
+     */
+    public static void printMap(Map<String, Integer> wordCountMap) {
+
+        for (Map.Entry<String, Integer> entry : wordCountMap.entrySet()) {
+            System.out.println("\t" + entry.getKey() + ": " + entry.getValue());
+        }
+    }
 }
