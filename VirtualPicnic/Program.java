@@ -14,6 +14,8 @@ public class Program {
             String longestWord = TextProcessor.findLongestWord(words);
             System.out.println("Количество слов: " + wordCountMap.size());
             System.out.println("Самое длинное слово: " + longestWord);
+            System.out.println("Сколько раз каждое слово встречается в файле?: ");
+            TextProcessor.printMap(wordCountMap);
             
         } catch (IOException e) {
             // TODO: handle exception
