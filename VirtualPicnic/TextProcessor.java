@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 public class TextProcessor {
 
-        /*
+    /*
      * Метод принимает список слов и возвращает карту,
      * где ключами являются уникальные слова, а значениями - количество их вхождений
      * в список.
@@ -36,7 +36,7 @@ public class TextProcessor {
         return longestWord;
     }
 
-        /*
+    /*
      * Выводим содержимое Map
      */
     public static void printMap(Map<String, Integer> wordCountMap) {
